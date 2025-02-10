@@ -35,7 +35,7 @@
 
 
 .full-width-img-olive{
-    margin-top: 20vh;
+    margin-top: 0px;
     width: 70%;
     margin-left: 15%;
 
@@ -201,7 +201,7 @@ body{
     font-size: 12px;
     margin-top: 10px;
     padding-left: 18px;
-    width: 180px;
+    width: 170px;
 }
 
 .carousel-img-caption-black{
@@ -336,6 +336,10 @@ color: #000000;
 
 .copy-section{
     position: relative;
+}
+
+.copy-section-final{
+    margin-top: -50px;
 }
 
 .growing-border{
@@ -724,15 +728,19 @@ margin-bottom: 100px;
     .grid.products {
     	grid-template-columns: repeat(3, minmax(0, 1fr));
     }
+
+    .copy-section-final{
+        margin-top: -100px;
+    }
     
 }
 
 @media screen and (max-width: 1024px) {
-    
+/*     
     .video-wrapper iframe{
         margin-top: -35vh !important;
         margin-bottom: -14rem !important;
-    }
+    } */
     
 }
 
@@ -838,10 +846,10 @@ margin-bottom: 100px;
     margin-bottom: 75px !important;
 }
 
-.video-wrapper iframe{
+/* .video-wrapper iframe{
     margin-top: -35vh;
     margin-bottom: -12rem;
-}
+} */
 
     
 }
@@ -916,10 +924,16 @@ margin-bottom: 100px;
             margin-left: 10%;
         }
 
-        .video-wrapper iframe{
-            margin-top: -25vh;
-            margin-bottom: -31rem !important;
+        /* .video-wrapper{
+            margin-top: 0rem;
+            display: block !important;
         }
+
+        .video-wrapper iframe{
+            margin-top: -24vh !important;
+            margin-bottom: -31rem !important;
+    
+        } */
 
         .video-caption{
             margin-top: -4rem !important;
@@ -957,6 +971,10 @@ margin-bottom: 100px;
     .copy-righthalf{
         margin-left: 10% !important;
         margin-bottom: 50px;
+    }
+    
+    .copy-section-final{
+        margin-top: 50px;
     }
         
     
@@ -1109,10 +1127,14 @@ margin-bottom: 100px;
     }
 
 @media screen and (min-width: 2560px) {
-    .video-wrapper iframe{
-        margin-top: -28vh;
+    /* .video-wrapper iframe{
+        margin-top: -16vh;
         margin-bottom: 12vh;
     }
+
+    .video-wrapper{
+        margin-top: -10rem;
+    } */
 
     .video-caption{
         margin-top: -37vh;
