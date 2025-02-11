@@ -718,6 +718,8 @@ margin-bottom: 100px;
     .grid.products {
     	grid-template-columns: repeat(2, minmax(0, 1fr));
     }
+
+
     
 }
 
@@ -749,6 +751,7 @@ margin-bottom: 100px;
 #toc-container{
     display: none !important;
 }
+
     
 }
 
@@ -854,10 +857,10 @@ margin-bottom: 100px;
     margin-bottom: 75px !important;
 }
 
-/* .video-wrapper iframe{
-    margin-top: -35vh;
-    margin-bottom: -12rem;
-} */
+.video-wrapper iframe{
+    margin-top: -18vh;
+    margin-bottom: 7rem;
+}
 
     
 }
@@ -931,17 +934,21 @@ margin-bottom: 100px;
             width: 80%;
             margin-left: 10%;
         }
-
-        /* .video-wrapper{
+/* 
+        .video-wrapper{
             margin-top: 0rem;
             display: block !important;
-        }
+        } */
 
         .video-wrapper iframe{
-            margin-top: -24vh !important;
-            margin-bottom: -31rem !important;
+            margin-top: -28vh !important;
+            margin-bottom: -10rem !important;
     
-        } */
+        }
+
+        .grid.products {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
 
         .video-caption{
             margin-top: -4rem !important;
@@ -990,7 +997,7 @@ margin-bottom: 100px;
         z-index: 10;
         width: 70%;
         position: relative;
-        margin-top: -80vh;
+        margin-top: -70vh;
         margin-left: 14%;
     }
     
@@ -1001,6 +1008,32 @@ margin-bottom: 100px;
         object-fit: cover;
         object-position: center !important;
     }
+
+
+.full-width-img-olive{
+    margin-top: 0px;
+    margin-bottom: 50px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+#one .overlaid-img{
+    margin-top: -70vh;
+}
+
+#two .overlaid-img{
+    margin-top: -80vh;
+}
+
+.page-section .overlaid-img{
+    margin-top: -40vh;
+}
+
+#four .overlaid-img{
+    margin-top: -70vh;
+}
+
+
     
     .origins-copyright{
        margin-top: -75px;
@@ -1093,6 +1126,7 @@ margin-bottom: 100px;
     #right-half-no-crop{
         width: 100%;
         margin-top: 50px;
+        margin-bottom: 50px;
     }
     
     #left-half-no-crop{
@@ -1120,7 +1154,7 @@ margin-bottom: 100px;
 
     .video-wrapper iframe{
         margin-top: -40vh;
-        margin-bottom: -34rem !important;
+        margin-bottom: -14rem !important;
     }
 
     .video-caption{
@@ -1130,8 +1164,7 @@ margin-bottom: 100px;
         position: relative;
         
     }
-    
-    
+   
     }
 
 @media screen and (min-width: 2560px) {
