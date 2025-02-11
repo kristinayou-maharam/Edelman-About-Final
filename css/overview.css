@@ -35,7 +35,7 @@
 
 
 .full-width-img-olive{
-    margin-top: 0px;
+    margin-top: 150px;
     width: 70%;
     margin-left: 15%;
 
@@ -741,6 +741,14 @@ margin-bottom: 100px;
         margin-top: -35vh !important;
         margin-bottom: -14rem !important;
     } */
+
+#toc{
+    display: none !important;
+}
+
+#toc-container{
+    display: none !important;
+}
     
 }
 
